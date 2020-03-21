@@ -1,0 +1,457 @@
+{
+  "baseProperties" : [
+    {
+      "id" : "name",
+      "tag" : "##name##",
+      "label" : "Nome",
+      "type" : "string"
+    },
+    {
+      "id" : "surname",
+      "tag" : "##surname##",
+      "label" : "Cognome",
+      "type" : "string"
+    },
+    {
+      "id" : "fiscalCode",
+      "tag" : "##fiscalCode##",
+      "label" : "Codice Fiscale",
+      "type" : "string"
+    },
+    {
+      "id" : "sexValue",
+      "tag" : "##sexValue##",
+      "label" : "Sesso",
+      "type" : "picker",
+      "valuesPicker" : [
+        "M", "F"
+      ]
+    },
+    {
+      "id" : "civilState",
+      "tag" : "##civilState##",
+      "label" : "Stato Civile",
+      "type" : "picker",
+      "valuesPicker" : [
+        "Celibe", "Nubile", "Sposato","Sposata","Vedovo","Vedova", "Divorziato", "Divorziata", "Separato", "Separata"
+      ]
+    },
+    {
+      "id" : "placeOfBirth",
+      "tag" : "##placeOfBirth##",
+      "label" : "Luogo di Nascita",
+      "type" : "string"
+    },
+    {
+      "id" : "provinceOfBirth",
+      "tag" : "##provinceOfBirth##",
+      "label" : "Provincia di Nascita",
+      "type" : "string"
+    },
+    {
+      "id" : "dateOfBirth",
+      "tag" : "##dateOfBirth##",
+      "label" : "Data di Nascita",
+      "type" : "date"
+    },
+    {
+      "id" : "cityLive",
+      "tag" : "##cityLive##",
+      "label" : "Città di Residenza",
+      "type" : "string"
+    },
+    {
+      "id" : "provinceLive",
+      "tag" : "##provinceLive##",
+      "label" : "Provincia di Residenza",
+      "type" : "string"
+    },
+    {
+      "id" : "addressLive",
+      "tag" : "##addressLive##",
+      "label" : "Indirizzo di Residenza",
+      "type" : "string"
+    },
+    {
+      "id" : "civicNumber",
+      "tag" : "##civicNumber##",
+      "label" : "Numero Civico",
+      "type" : "string"
+    },
+    {
+      "id" : "email",
+      "tag" : "##email##",
+      "label" : "Email",
+      "type" : "string"
+    },
+    {
+      "id" : "pec",
+      "tag" : "##pec##",
+      "label" : "Pec",
+      "type" : "string"
+    },
+    {
+      "id" : "numberPhone",
+      "tag" : "##numberPhone##",
+      "label" : "Numero di Telefono",
+      "type" : "string"
+    },
+    {
+      "id" : "university",
+      "label" : "Università",
+      "type" : "string",
+      "tag" : "##university##"
+    },
+    {
+      "id" : "dateOfDegree",
+      "label" : "Data di Laurea",
+      "type" : "date",
+      "tag" : "##dateOfDegree##"
+    },
+    {
+      "id" : "markDegree",
+      "label" : "Voto di Laurea",
+      "type" : "number",
+      "tag" : "##markDegree##"
+    },
+    {
+      "id" : "degree",
+      "label" : "Laurea",
+      "type" : "string",
+      "tag" : "##degree##"
+    },
+    {
+      "id" : "dataMatrimonio",
+      "label" : "Data matrimonio",
+      "type" : "date",
+      "tag" : "##dataMatrimonio##"
+    },
+    {
+      "id" : "luogoMatrimonio",
+      "label" : "Città del matrimonio",
+      "type" : "string",
+      "tag" : "##luogoMatrimonio##"
+    },
+    {
+      "id" : "provinciaMatrimonio",
+      "label" : "Provincia del matrimonio",
+      "type" : "string",
+      "tag" : "##provinciaMatrimonio##"
+    },
+    {
+      "id" : "causale",
+      "label" : "Causale di Delega",
+      "type" : "string",
+      "tag" : "##causale##"
+    },
+    {
+      "id" : "diploma",
+      "label" : "Diploma in",
+      "type" : "string",
+      "tag" : "##diploma##"
+    },
+    {
+      "id" : "scuolaDiploma",
+      "label" : "Scuola Diploma",
+      "type" : "string",
+      "tag" : "##scuolaDiploma##"
+    },
+    {
+      "id" : "dataDiploma",
+      "label" : "Data di Diploma",
+      "type" : "date",
+      "tag" : "##dataDiploma##"
+    },
+    {
+      "id" : "markDiploma",
+      "label" : "Voto di Diploma",
+      "type" : "number",
+      "tag" : "##markDiploma##"
+    },
+    {
+      "id" : "currentPlace",
+      "label" : "Luogo di firma",
+      "type" : "string",
+      "tag" : "##currentPlace##"
+    },
+    {
+      "id" : "currentDate",
+      "label" : "Data di firma",
+      "type" : "date",
+      "tag" : "##currentDate##"
+    },
+    {
+      "id" : "rapportoDiParentela",
+      "label" : "Rapporto di parentela",
+      "type" : "string",
+      "tag" : "##rapportoDiParentela##"
+    },
+    {
+      "id" : "placeOfDead",
+      "label" : "Luogo di morte",
+      "type" : "string",
+      "tag" : "##placeOfDead##"
+    },
+    {
+      "id" : "dateOfDead",
+      "label" : "Data di morte",
+      "type" : "date",
+      "tag" : "##dateOfDead##"
+    },
+    {
+      "id" : "operatore",
+      "label" : "Chi ha fatto le riprese?",
+      "type" : "string",
+      "tag" : "##operatore##"
+    }
+    ,
+    {
+      "id" : "dateOfRecord",
+      "label" : "Data di riferimento",
+      "type" : "date",
+      "tag" : "##dateOfRecord##"
+    },
+    {
+      "id" : "recordPlace",
+      "label" : "Luogo di riferimento",
+      "type" : "string",
+      "tag" : "##recordPlace##"
+    }
+    ,
+    {
+      "id" : "recordPlaceProvince",
+      "label" : "Provincia luogo di riferimento",
+      "type" : "string",
+      "tag" : "##recordPlaceProvince##"
+    },{
+      "id" : "occasion",
+      "label" : "Descrizione Evento",
+      "type" : "string",
+      "tag" : "##occasion##"
+    },
+    {
+      "id" : "company",
+      "label" : "Chi effettuerà la pubblicazione?",
+      "type" : "string",
+      "tag" : "##company##"
+    },
+    {
+      "id" : "transitPlace",
+      "label" : "Da dove transiti?",
+      "type" : "string",
+      "tag" : "##transitPlace##"
+    },
+    {
+      "id" : "fromPlace",
+      "label" : "Da dove provieni?",
+      "type" : "string",
+      "tag" : "##fromPlace##"
+    },
+    {
+      "id" : "toPlace",
+      "label" : "Qual è la tua destinazione?",
+      "type" : "string",
+      "tag" : "##toPlace##"
+    },
+    {
+      "id" : "declaration",
+      "label" : "Motivazione dello spostamento?",
+      "type" : "string",
+      "tag" : "##declaration##"
+    },
+    {
+      "id" : "identifiedBy",
+      "label" : "Documento fornito per identificazione",
+      "type" : "string",
+      "tag" : "##identifiedBy##"
+    },
+    {
+      "id" : "documentNumber",
+      "label" : "Numero documento",
+      "type" : "string",
+      "tag" : "##documentNumber##"
+    },
+    {
+      "id" : "hourIdentification",
+      "label" : "Orario identificazione",
+      "type" : "string",
+      "tag" : "##hourIdentification##"
+    }
+  ],
+  "certificatesList" : [
+    {
+      "id" : 14,
+      "label" : "Covid19 Spostamenti",
+      "url" : "https://raw.githubusercontent.com/andoma93/Autocertifico-Templates/v1/templates/spostamento.html",
+      "filename" : "Covid19-MotivazioneSpostamenti",
+      "hasOtherPeople" : false,
+      "properties" : ["name", "surname", "sexValue", "placeOfBirth", "provinceOfBirth",
+        "dateOfBirth", "cityLive", "provinceLive", "addressLive","civicNumber"],
+      "otherProperties" : [ "numberPhone","identifiedBy", "documentNumber", "declaration"],
+      "isActive" : true
+    },
+      {
+        "id" : 15,
+        "label" : "Covid19 English Trip Declaration",
+        "url" : "https://raw.githubusercontent.com/andoma93/Autocertifico-Templates/v1/templates/spostamento_en.html",
+        "filename" : "Covid19-TripMotivation",
+        "hasOtherPeople" : false,
+        "properties" : ["name", "surname", "sexValue", "placeOfBirth", "provinceOfBirth",
+          "dateOfBirth", "cityLive", "provinceLive", "addressLive","civicNumber"],
+        "otherProperties" : [ "numberPhone","identifiedBy", "documentNumber", "transitPlace", "fromPlace", "toPlace", "declaration"],
+        "isActive" : true
+      },
+    {
+      "id" : 8,
+      "label" : "Laurea",
+      "url" : "https://raw.githubusercontent.com/andoma93/Autocertifico-Templates/v1/templates/laurea.html",
+      "filename" : "Laurea",
+      "hasOtherPeople" : false,
+      "properties" : ["name", "surname", "sexValue", "placeOfBirth", "provinceOfBirth",
+        "dateOfBirth", "fiscalCode", "cityLive", "provinceLive", "addressLive",
+        "civicNumber"],
+      "otherProperties" : [ "university", "dateOfDegree", "markDegree", "degree", "currentPlace", "currentDate"],
+      "isActive" : true
+    },
+    {
+      "id" : 1,
+      "label" : "Residenza",
+      "url" : "https://raw.githubusercontent.com/andoma93/Autocertifico-Templates/v1/templates/residenza.html",
+      "filename" : "Residenza",
+      "hasOtherPeople" : false,
+      "properties" : ["name", "surname", "sexValue", "placeOfBirth", "provinceOfBirth",
+        "dateOfBirth", "fiscalCode", "cityLive", "provinceLive", "addressLive","civicNumber"],
+      "otherProperties" : ["currentPlace", "currentDate"],
+      "isActive" : true
+    },
+    {
+      "id" : 2,
+      "label" : "Stato di Famiglia",
+      "url" : "https://raw.githubusercontent.com/andoma93/Autocertifico-Templates/v1/templates/statoDiFamiglia.html",
+      "filename" : "Stato-Di-Famiglia",
+      "hasOtherPeople" : true,
+      "isActive" : true,
+      "multipleChoice" : true,
+      "properties" : ["name", "surname", "sexValue", "placeOfBirth", "provinceOfBirth",
+        "dateOfBirth", "fiscalCode", "cityLive", "provinceLive", "addressLive", "civicNumber"],
+      "otherProperties" : ["currentPlace", "currentDate"],  
+      "hint" : "Scegli i componenti"
+    },
+    {
+      "id" : 3,
+      "label" : "Diritti Civili",
+      "url" : "https://raw.githubusercontent.com/andoma93/Autocertifico-Templates/v1/templates/dirittiCivili.html",
+      "filename" : "Diritti-Civili",
+      "hasOtherPeople" : false,
+      "properties" : ["name", "surname", "sexValue", "placeOfBirth", "provinceOfBirth",
+        "dateOfBirth", "fiscalCode"],
+      "otherProperties" : ["currentPlace", "currentDate"], 
+      "isActive" : true
+    },
+    {
+      "id" : 4,
+      "label" : "Esistenza in Vita",
+      "url" : "https://raw.githubusercontent.com/andoma93/Autocertifico-Templates/v1/templates/esistenzaInVita.html",
+      "filename" : "Esistenza-In-Vita",
+      "hasOtherPeople" : false,
+      "properties" : ["name", "surname", "sexValue", "placeOfBirth", "provinceOfBirth",
+        "dateOfBirth", "fiscalCode"],
+      "otherProperties" : ["currentPlace", "currentDate"],
+      "isActive" : true
+    },
+    {
+      "id" : 5,
+      "label" : "Disoccupazione",
+      "url" : "https://raw.githubusercontent.com/andoma93/Autocertifico-Templates/v1/templates/disoccupazione.html",
+      "filename" : "Disoccupazione",
+      "hasOtherPeople" : false,
+      "properties" : ["name", "surname", "sexValue", "placeOfBirth", "provinceOfBirth",
+        "dateOfBirth", "fiscalCode"],
+      "otherProperties" : ["currentPlace", "currentDate"],
+      "isActive" : true
+    },
+    {
+      "id" : 6,
+      "label" : "Nascita",
+      "url" : "https://raw.githubusercontent.com/andoma93/Autocertifico-Templates/v1/templates/nascita.html",
+      "filename" : "Nascita",
+      "hasOtherPeople" : false,
+      "properties" : ["name", "surname", "sexValue", "placeOfBirth", "provinceOfBirth",
+        "dateOfBirth", "fiscalCode", "cityLive", "provinceLive", "addressLive",
+        "civicNumber"],
+      "otherProperties" : ["currentPlace", "currentDate"],
+      "isActive" : true
+    },
+    {
+      "id" : 7,
+      "label" : "Condanne Penali",
+      "url" : "https://raw.githubusercontent.com/andoma93/Autocertifico-Templates/v1/templates/condannePenali.html",
+      "filename" : "Condanne-Penali",
+      "hasOtherPeople" : false,
+      "properties" : ["name", "surname", "sexValue", "placeOfBirth", "provinceOfBirth",
+        "dateOfBirth", "fiscalCode"],
+      "otherProperties" : ["currentPlace", "currentDate"],
+      "isActive" : true
+    },
+    {
+      "id" : 9,
+      "label" : "Matrimonio",
+      "url" : "https://raw.githubusercontent.com/andoma93/Autocertifico-Templates/v1/templates/matrimonio.html",
+      "filename" : "Matrimonio",
+      "hasOtherPeople" : true,
+      "properties" : ["name", "surname", "sexValue", "placeOfBirth", "provinceOfBirth",
+        "dateOfBirth", "fiscalCode"],
+      "otherProperties" : [ "dataMatrimonio", "luogoMatrimonio", "provinciaMatrimonio","currentPlace", "currentDate"],
+      "isActive" : true,
+      "hint" : "Scegli chi hai sposato"
+    },
+    {
+      "id" : 10,
+      "label" : "Delega",
+      "url" : "https://raw.githubusercontent.com/andoma93/Autocertifico-Templates/v1/templates/delega.html",
+      "filename" : "Delega",
+      "hasOtherPeople" : true,
+      "properties": ["name", "surname", "sexValue", "placeOfBirth", "provinceOfBirth",
+        "dateOfBirth", "fiscalCode"],
+      "otherProperties" : [ "causale","currentPlace", "currentDate"],
+      "hint" : "Scegli chi vuoi delegare",
+      "isActive" : true
+    },
+    {
+      "id" : 11,
+      "label" : "Diploma",
+      "url" : "https://raw.githubusercontent.com/andoma93/Autocertifico-Templates/v1/templates/diploma.html",
+      "filename" : "Diploma",
+      "hasOtherPeople" : false,
+      "properties" : ["name", "surname", "sexValue", "placeOfBirth", "provinceOfBirth",
+        "dateOfBirth", "fiscalCode"],
+      "otherProperties" : [ "diploma", "scuolaDiploma", "dataDiploma", "markDiploma","currentPlace", "currentDate"],
+      "isActive" : true
+    },
+    {
+      "id" : 12,
+      "label" : "Morte",
+      "url" : "https://raw.githubusercontent.com/andoma93/Autocertifico-Templates/v1/templates/morte.html",
+      "filename" : "Morte",
+      "hasOtherPeople" : true,
+      "properties" : ["name", "surname", "sexValue", "placeOfBirth", "provinceOfBirth",
+        "dateOfBirth", "fiscalCode", "cityLive", "provinceLive", "addressLive",
+        "civicNumber"],
+      "otherProperties" : [ "rapportoDiParentela","placeOfDead", "dateOfDead","currentPlace", "currentDate"],
+      "isActive" : true,
+      "hint" : "Scegli la persona deceduta"
+    }
+    ,
+    {
+      "id" : 13,
+      "label" : "Pubblicazione foto/video",
+      "url" : "https://raw.githubusercontent.com/andoma93/Autocertifico-Templates/v1/templates/liberatoria_foto_video.html",
+      "filename" : "LiberatoriaPubblicazFotoVideo",
+      "hasOtherPeople" : false,
+      "properties" : ["name", "surname", "sexValue", "placeOfBirth", "provinceOfBirth",
+        "dateOfBirth", "fiscalCode", "cityLive", "provinceLive", "addressLive","civicNumber"],
+      "otherProperties" : ["operatore","dateOfRecord", "recordPlace","recordPlaceProvince", "occasion", "company","currentPlace", "currentDate"],
+      "isActive" : true
+    }
+  ]
+}
