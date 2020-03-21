@@ -5,6 +5,10 @@ This repo contains the datasource used by the mobile apps to create self certifi
 ### Pull requests are welcome!
 Pull requests are usefull to create your own certificates and modify the currents. Please note that, once merged, certificates will be available for all users using the mobile apps.
 
+Branch 'master' always will track the current version used from mobile apps (actually **v1**).
+
+Please start your pull request for branch *master*.
+
 ## Mobile Apps
 
 ### iOS
