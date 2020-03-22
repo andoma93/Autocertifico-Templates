@@ -1,3 +1,5 @@
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+[![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)  
 # Autocertifico-Templates
 [Autocertifico](https://autocertifico.com) is a mobile app that helps italian people to create their own self certifications. It’s superfast, simple and free.
 This repo contains the datasource used by the mobile apps to create self certifications.
