@@ -11,6 +11,9 @@ Branch 'master' always will track the current version used from mobile apps (act
 
 Please start your pull request for branch *master*.
 
+## Docs
+Please check the config-schema.json file in docs folder.
+
 ## Mobile Apps
 
 ### iOS
