@@ -1,0 +1,308 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "required": [
+    "baseProperties",
+    "certificatesList"
+  ],
+  "properties": {
+    "baseProperties": {
+      "$id": "#/properties/baseProperties",
+      "type": "array",
+      "title": "The Baseproperties Schema",
+      "description": "baseProperties is the list of all the properties used by self certifications.",
+      "default": [],
+      "items": {
+        "$id": "#/properties/baseProperties/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": {},
+        "examples": [
+          {
+            "label": "Nome",
+            "tag": "##name##",
+            "id": "name",
+            "type": "string"
+          },
+          {
+            "label": "Stato Civile",
+            "type": "picker",
+            "valuesPicker": [
+              "Celibe",
+              "Nubile",
+              "Sposato",
+              "Sposata",
+              "Vedovo",
+              "Vedova",
+              "Divorziato",
+              "Divorziata",
+              "Separato",
+              "Separata"
+            ],
+            "tag": "##civilState##",
+            "id": "civilState"
+          },
+          {
+            "label": "Data di Laurea",
+            "tag": "##dateOfDegree##",
+            "id": "dateOfDegree",
+            "type": "date"
+          },
+          {
+            "label": "Voto di Laurea",
+            "tag": "##markDegree##",
+            "id": "markDegree",
+            "type": "number"
+          }
+        ],
+        "required": [
+          "id",
+          "tag",
+          "label",
+          "type"
+        ],
+        "properties": {
+          "id": {
+            "$id": "#/properties/baseProperties/items/properties/id",
+            "type": "string",
+            "title": "The Id Schema",
+            "description": "id is the string that identifies the property. It must be unique",
+            "default": "",
+            "examples": [
+              "name"
+            ]
+          },
+          "tag": {
+            "$id": "#/properties/baseProperties/items/properties/tag",
+            "type": "string",
+            "title": "The Tag Schema",
+            "description": "tag is the string that will be replaced in the html certification",
+            "default": "",
+            "examples": [
+              "##name##"
+            ]
+          },
+          "label": {
+            "$id": "#/properties/baseProperties/items/properties/label",
+            "type": "string",
+            "title": "The Label Schema",
+            "description": "label is the string that will be showed as title of the property for the user",
+            "default": "",
+            "examples": [
+              "Nome"
+            ]
+          },
+          "type": {
+            "$id": "#/properties/baseProperties/items/properties/type",
+            "type": "string",
+            "title": "The Type Schema",
+            "description": "type must be one of these values: string, number, picker, date",
+            "default": "",
+            "examples": [
+              "string"
+            ]
+          },
+          "valuesPicker": {
+            "$id": "#/properties/baseProperties/items/properties/type",
+            "type": "array",
+            "title": "The Type Schema",
+            "description": "valuesPicker is an array of strings that will be considered when type has value 'picker'. Array contains values for the showed picker.",
+            "default": "",
+            "examples": [
+              "string"
+            ]
+          }
+        }
+      }
+    },
+    "certificatesList": {
+      "$id": "#/properties/certificatesList",
+      "type": "array",
+      "title": "The Certificateslist Schema",
+      "description": "certificatesList is an array that contains the certificates showed in homepage and available to be used from users",
+      "default": [],
+      "items": {
+        "$id": "#/properties/certificatesList/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": {},
+        "examples": [
+          {
+            "hasOtherPeople": false,
+            "isActive": true,
+            "label": "Covid19 Spostamenti",
+            "properties": [
+              "name",
+              "surname",
+              "sexValue",
+              "placeOfBirth",
+              "provinceOfBirth",
+              "dateOfBirth",
+              "cityLive",
+              "provinceLive",
+              "addressLive",
+              "civicNumber"
+            ],
+            "id": 14,
+            "url": "https://raw.githubusercontent.com/andoma93/Autocertifico-Templates/v1/templates/spostamento.html",
+            "filename": "Covid19-MotivazioneSpostamenti",
+            "otherProperties": [
+              "numberPhone",
+              "identifiedBy",
+              "documentNumber",
+              "declaration"
+            ]
+          },
+          {
+            "hasOtherPeople": false,
+            "isActive": true,
+            "label": "Residenza",
+            "properties": [
+              "name",
+              "surname",
+              "sexValue",
+              "placeOfBirth",
+              "provinceOfBirth",
+              "dateOfBirth",
+              "fiscalCode",
+              "cityLive",
+              "provinceLive",
+              "addressLive",
+              "civicNumber"
+            ],
+            "id": 1,
+            "url": "https://raw.githubusercontent.com/andoma93/Autocertifico-Templates/v1/templates/residenza.html",
+            "filename": "Residenza",
+            "otherProperties": [
+              "currentPlace",
+              "currentDate"
+            ]
+          }
+        ],
+        "required": [
+          "id",
+          "label",
+          "url",
+          "filename",
+          "hasOtherPeople",
+          "properties",
+          "otherProperties",
+          "isActive"
+        ],
+        "properties": {
+          "id": {
+            "$id": "#/properties/certificatesList/items/properties/id",
+            "type": "integer",
+            "title": "The Id Schema",
+            "description": "id is an integer that identifies the certification. It must be unique in the list",
+            "default": 0,
+            "examples": [
+              1
+            ]
+          },
+          "label": {
+            "$id": "#/properties/certificatesList/items/properties/label",
+            "type": "string",
+            "title": "The Label Schema",
+            "description": "Title showed for the certification",
+            "default": "",
+            "examples": [
+              "Covid19 Spostamenti"
+            ]
+          },
+          "url": {
+            "$id": "#/properties/certificatesList/items/properties/url",
+            "type": "string",
+            "title": "The Url Schema",
+            "description": "Url containing the html template for the certification. Please to support improvements get a versioning system on your template (ie. v1, v2)",
+            "default": "",
+            "examples": [
+              "https://raw.githubusercontent.com/andoma93/Autocertifico-Templates/v1/templates/spostamento.html"
+            ]
+          },
+          "filename": {
+            "$id": "#/properties/certificatesList/items/properties/filename",
+            "type": "string",
+            "title": "The Filename Schema",
+            "description": "filename append for the final pdf",
+            "default": "",
+            "examples": [
+              "Covid19-MotivazioneSpostamenti"
+            ]
+          },
+          "hasOtherPeople": {
+            "$id": "#/properties/certificatesList/items/properties/hasOtherPeople",
+            "type": "boolean",
+            "title": "The Hasotherpeople Schema",
+            "description": "true if certification supports multiple identities, false otherwise",
+            "default": false,
+            "examples": [
+              false
+            ]
+          },
+          "properties": {
+            "$id": "#/properties/certificatesList/items/properties/properties",
+            "type": "array",
+            "title": "The Properties Schema",
+            "description": "list of id of properties for the current certification. These properties cannot contain different values of the example",
+            "default": [],
+            "items": {
+              "$id": "#/properties/certificatesList/items/properties/properties/items",
+              "type": "string",
+              "title": "The Items Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "name",
+                "surname",
+                "sexValue",
+                "placeOfBirth",
+                "provinceOfBirth",
+                "dateOfBirth",
+                "cityLive",
+                "provinceLive",
+                "addressLive",
+                "civicNumber"
+              ]
+            }
+          },
+          "otherProperties": {
+            "$id": "#/properties/certificatesList/items/properties/otherProperties",
+            "type": "array",
+            "title": "The Otherproperties Schema",
+            "description": "list of id of other properties for the current certification. These properties can contain all the values contained in #/properties/baseProperties",
+            "default": [],
+            "items": {
+              "$id": "#/properties/certificatesList/items/properties/otherProperties/items",
+              "type": "string",
+              "title": "The Items Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "numberPhone",
+                "identifiedBy",
+                "documentNumber",
+                "declaration"
+              ]
+            }
+          },
+          "isActive": {
+            "$id": "#/properties/certificatesList/items/properties/isActive",
+            "type": "boolean",
+            "title": "The Isactive Schema",
+            "description": "true if certification will be showed in app, false otherwise",
+            "default": false,
+            "examples": [
+              true
+            ]
+          }
+        }
+      }
+    }
+  }
+}
