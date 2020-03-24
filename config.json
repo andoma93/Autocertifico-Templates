@@ -236,14 +236,8 @@
       "tag" : "##company##"
     },
     {
-      "id" : "transitPlace",
-      "label" : "Da dove transiti?",
-      "type" : "string",
-      "tag" : "##transitPlace##"
-    },
-    {
       "id" : "fromPlace",
-      "label" : "Da dove provieni?",
+      "label" : "Luogo inizio spostamento?",
       "type" : "string",
       "tag" : "##fromPlace##"
     },
@@ -276,31 +270,57 @@
       "label" : "Orario identificazione",
       "type" : "string",
       "tag" : "##hourIdentification##"
+    },
+    {
+      "id" : "cityDomicilio",
+      "label" : "Domiciliato in?",
+      "type" : "string",
+      "tag" : "##cityDomicilio##"
+    },
+    {
+      "id" : "provinceDomicilio",
+      "label" : "Provincia del domicilio?",
+      "type" : "string",
+      "tag" : "##provinceDomicilio##"
+    },
+    {
+      "id" : "addressDomicilio",
+      "label" : "Indirizzo del domicilio?",
+      "type" : "string",
+      "tag" : "##addressDomicilio##"
+    },
+    {
+      "id" : "civicNumberDomicilio",
+      "label" : "Numero civico del domicilio?",
+      "type" : "string",
+      "tag" : "##civicNumberDomicilio##"
+    },
+    {
+      "id" : "documentReleasedBy",
+      "label" : "Documento rilasciato da?",
+      "type" : "string",
+      "tag" : "##documentReleasedBy##"
+    } ,
+    {
+      "id" : "documentReleasedDate",
+      "label" : "Data rilascio documento?",
+      "type" : "string",
+      "tag" : "##documentReleasedDate##"
     }
   ],
   "certificatesList" : [
     {
       "id" : 14,
-      "label" : "Covid19 Spostamenti",
+      "label" : "Covid19 Spostamenti del 23 Marzo 2020",
       "url" : "https://raw.githubusercontent.com/andoma93/Autocertifico-Templates/v1/templates/spostamento.html",
       "filename" : "Covid19-MotivazioneSpostamenti",
       "hasOtherPeople" : false,
       "properties" : ["name", "surname", "sexValue", "placeOfBirth", "provinceOfBirth",
         "dateOfBirth", "cityLive", "provinceLive", "addressLive","civicNumber"],
-      "otherProperties" : [ "numberPhone","identifiedBy", "documentNumber", "declaration"],
+      "otherProperties" : [ "cityDomicilio","provinceDomicilio","addressDomicilio","civicNumberDomicilio","identifiedBy", "documentNumber", 
+        "documentReleasedBy","documentReleasedDate","numberPhone", "fromPlace", "toPlace","declaration"],
       "isActive" : true
     },
-      {
-        "id" : 15,
-        "label" : "Covid19 English Trip Declaration",
-        "url" : "https://raw.githubusercontent.com/andoma93/Autocertifico-Templates/v1/templates/spostamento_en.html",
-        "filename" : "Covid19-TripMotivation",
-        "hasOtherPeople" : false,
-        "properties" : ["name", "surname", "sexValue", "placeOfBirth", "provinceOfBirth",
-          "dateOfBirth", "cityLive", "provinceLive", "addressLive","civicNumber"],
-        "otherProperties" : [ "numberPhone","identifiedBy", "documentNumber", "transitPlace", "fromPlace", "toPlace", "declaration"],
-        "isActive" : true
-      },
     {
       "id" : 8,
       "label" : "Laurea",
