@@ -94,7 +94,7 @@
       "id" : "numberPhone",
       "tag" : "##numberPhone##",
       "label" : "Numero di Telefono",
-      "type" : "string"
+      "type" : "number"
     },
     {
       "id" : "university",
@@ -304,7 +304,7 @@
     {
       "id" : "documentReleasedDate",
       "label" : "Data rilascio documento?",
-      "type" : "string",
+      "type" : "date",
       "tag" : "##documentReleasedDate##"
     }
   ],
