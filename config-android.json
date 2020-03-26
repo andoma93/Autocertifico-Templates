@@ -249,13 +249,13 @@
     },
     {
       "id" : "declaration",
-      "label" : "Motivazione dello spostamento?",
+      "label" : "Motivazione spostamento?",
       "type" : "string",
       "tag" : "##declaration##"
     },
     {
       "id" : "identifiedBy",
-      "label" : "Documento fornito per identificazione",
+      "label" : "Documento d'identificazione",
       "type" : "string",
       "tag" : "##identifiedBy##"
     },
@@ -291,7 +291,7 @@
     },
     {
       "id" : "civicNumberDomicilio",
-      "label" : "Numero civico del domicilio?",
+      "label" : "N. civico del domicilio?",
       "type" : "string",
       "tag" : "##civicNumberDomicilio##"
     },
@@ -321,7 +321,7 @@
     },
     {
       "id" : "provvedimenti",
-      "label" : "Provvedimenti regionali che consentono lo spostamento?",
+      "label" : "Provvedim. Regionali?",
       "type" : "string",
       "tag" : "##provvedimenti##"
     }
