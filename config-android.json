@@ -306,19 +306,37 @@
       "label" : "Data rilascio documento?",
       "type" : "date",
       "tag" : "##documentReleasedDate##"
+    },
+    {
+      "id" : "fromRegion",
+      "label" : "Regione di partenza?",
+      "type" : "string",
+      "tag" : "##fromRegion##"
+    },
+    {
+      "id" : "toRegion",
+      "label" : "Regione di destinazione?",
+      "type" : "string",
+      "tag" : "##toRegion##"
+    },
+    {
+      "id" : "provvedimenti",
+      "label" : "Provvedimenti regionali che consentono lo spostamento?",
+      "type" : "string",
+      "tag" : "##provvedimenti##"
     }
   ],
   "certificatesList" : [
     {
       "id" : 14,
-      "label" : "Covid19 Spostamenti del 23 Marzo 2020",
+      "label" : "Covid19 Spostamenti del 26 Marzo 2020",
       "url" : "https://raw.githubusercontent.com/andoma93/Autocertifico-Templates/v1/templates-android/spostamento.html",
       "filename" : "Covid19-MotivazioneSpostamenti",
       "hasOtherPeople" : false,
       "properties" : ["name", "surname", "sexValue", "placeOfBirth", "provinceOfBirth",
         "dateOfBirth", "cityLive", "provinceLive", "addressLive","civicNumber"],
       "otherProperties" : [ "cityDomicilio","provinceDomicilio","addressDomicilio","civicNumberDomicilio","identifiedBy", "documentNumber", 
-        "documentReleasedBy","documentReleasedDate","numberPhone", "fromPlace", "toPlace","declaration"],
+        "documentReleasedBy","documentReleasedDate","numberPhone","fromRegion", "toRegion", "fromPlace", "toPlace","provvedimenti","declaration"],
       "isActive" : true
     },
     {
