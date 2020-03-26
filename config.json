@@ -323,9 +323,9 @@
   "certificatesList" : [
     {
       "id" : 14,
-      "label" : "Covid19 Spostamenti del 26 Marzo 2020",
+      "label" : "Spostamenti - Aggiornato al 26 Marzo 2020",
       "url" : "https://raw.githubusercontent.com/andoma93/Autocertifico-Templates/v1/templates/spostamento.html",
-      "filename" : "Covid19-MotivazioneSpostamenti",
+      "filename" : "MotivazioneSpostamentiDPCM",
       "hasOtherPeople" : false,
       "properties" : ["name", "surname", "sexValue", "placeOfBirth", "provinceOfBirth",
         "dateOfBirth", "cityLive", "provinceLive", "addressLive","civicNumber"],
