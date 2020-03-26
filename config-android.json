@@ -318,12 +318,6 @@
       "label" : "Regione di destinazione?",
       "type" : "string",
       "tag" : "##toRegion##"
-    },
-    {
-      "id" : "provvedimenti",
-      "label" : "Provvedim. Regionali?",
-      "type" : "string",
-      "tag" : "##provvedimenti##"
     }
   ],
   "certificatesList" : [
@@ -336,7 +330,7 @@
       "properties" : ["name", "surname", "sexValue", "placeOfBirth", "provinceOfBirth",
         "dateOfBirth", "cityLive", "provinceLive", "addressLive","civicNumber"],
       "otherProperties" : [ "cityDomicilio","provinceDomicilio","addressDomicilio","civicNumberDomicilio","identifiedBy", "documentNumber", 
-        "documentReleasedBy","documentReleasedDate","numberPhone","fromRegion", "toRegion", "fromPlace", "toPlace","provvedimenti","declaration"],
+        "documentReleasedBy","documentReleasedDate","numberPhone","fromRegion", "toRegion", "fromPlace", "toPlace","declaration"],
       "isActive" : true
     },
     {
