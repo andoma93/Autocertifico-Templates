@@ -327,7 +327,14 @@
       "label" : "Posizione agli effetti militari",
       "type" : "string",
       "tag" : "##militaryPosition##"
+    },
+    {
+      "id" : "comuneCittadinanza",
+      "label" : "Comune alla cui anagrafe si è iscritti",
+      "type" : "string",
+      "tag" : "##comuneCittadinanza##"
     }
+    
   ],
   "certificatesList" : [
     {
@@ -515,7 +522,17 @@
       "properties": ["name", "surname", "sexValue", "placeOfBirth", "provinceOfBirth",
         "dateOfBirth", "fiscalCode", "cityLive", "provinceLive", "addressLive","civicNumber"],
       "otherProperties" : ["militaryPosition","currentPlace", "currentDate"],
-      "hint" : "Seleziona identità figlio",
+      "isActive" : true
+    },
+    {
+      "id" : 17,
+      "label" : "Cittadinanza Italiana",
+      "url" : "https://raw.githubusercontent.com/andoma93/Autocertifico-Templates/v1/templates-android/cittadinanza_italiana.html",
+      "filename" : "CittadinanzaItaliana",
+      "hasOtherPeople" : false,
+      "properties": ["name", "surname", "sexValue", "placeOfBirth", "provinceOfBirth",
+        "dateOfBirth", "cityLive", "provinceLive", "addressLive","civicNumber"],
+      "otherProperties" : ["comuneCittadinanza","currentPlace", "currentDate"],
       "isActive" : true
     }
   ]
