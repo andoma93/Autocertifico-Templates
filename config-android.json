@@ -496,7 +496,7 @@
       "hasOtherPeople" : true,
       "properties": ["name", "surname", "sexValue", "placeOfBirth", "provinceOfBirth",
         "dateOfBirth", "fiscalCode", "cityLive", "provinceLive", "addressLive","civicNumber"],
-      "otherProperties" : [ "causale","currentPlace", "currentDate"],
+      "otherProperties" : ["currentPlace", "currentDate"],
       "hint" : "Seleziona identità figlio",
       "isActive" : true
     }
