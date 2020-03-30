@@ -321,6 +321,12 @@
       "valuesPicker" : [
         "comprovate esigenze lavorative", "assoluta urgenza","situazione di necessità","motivi di salute"
       ]
+    },
+    {
+      "id" : "militaryPosition",
+      "label" : "Posizione agli effetti militari",
+      "type" : "string",
+      "tag" : "##militaryPosition##"
     }
   ],
   "certificatesList" : [
@@ -497,6 +503,18 @@
       "properties": ["name", "surname", "sexValue", "placeOfBirth", "provinceOfBirth",
         "dateOfBirth", "fiscalCode", "cityLive", "provinceLive", "addressLive","civicNumber"],
       "otherProperties" : ["currentPlace", "currentDate"],
+      "hint" : "Seleziona identità figlio",
+      "isActive" : true
+    },
+    {
+      "id" : 16,
+      "label" : "Posizione Militare",
+      "url" : "https://raw.githubusercontent.com/andoma93/Autocertifico-Templates/v1/templates-android/posizione_militare.html",
+      "filename" : "PosizioneMilitare",
+      "hasOtherPeople" : false,
+      "properties": ["name", "surname", "sexValue", "placeOfBirth", "provinceOfBirth",
+        "dateOfBirth", "fiscalCode", "cityLive", "provinceLive", "addressLive","civicNumber"],
+      "otherProperties" : ["militaryPosition","currentPlace", "currentDate"],
       "hint" : "Seleziona identità figlio",
       "isActive" : true
     }
