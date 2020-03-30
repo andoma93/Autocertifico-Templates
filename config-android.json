@@ -487,6 +487,18 @@
         "dateOfBirth", "fiscalCode", "cityLive", "provinceLive", "addressLive","civicNumber"],
       "otherProperties" : ["operatore","dateOfRecord", "recordPlace","recordPlaceProvince", "occasion", "company","currentPlace", "currentDate"],
       "isActive" : true
+    },
+    {
+      "id" : 15,
+      "label" : "Nascita del figlio",
+      "url" : "https://raw.githubusercontent.com/andoma93/Autocertifico-Templates/v1/templates-android/nascita_figlio.html",
+      "filename" : "NascitaFiglio",
+      "hasOtherPeople" : true,
+      "properties": ["name", "surname", "sexValue", "placeOfBirth", "provinceOfBirth",
+        "dateOfBirth", "fiscalCode"],
+      "otherProperties" : ["currentPlace", "currentDate"],
+      "hint" : "Seleziona identità figlio",
+      "isActive" : true
     }
   ]
 }
