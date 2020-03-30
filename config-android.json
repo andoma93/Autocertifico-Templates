@@ -333,6 +333,12 @@
       "label" : "Comune alla cui anagrafe si è iscritti",
       "type" : "string",
       "tag" : "##comuneCittadinanza##"
+    },
+    {
+      "id" : "alboElenco",
+      "label" : "Indicare Albo o Elenco",
+      "type" : "string",
+      "tag" : "##alboElenco##"
     }
     
   ],
@@ -533,6 +539,17 @@
       "properties": ["name", "surname", "sexValue", "placeOfBirth", "provinceOfBirth",
         "dateOfBirth", "cityLive", "provinceLive", "addressLive","civicNumber"],
       "otherProperties" : ["comuneCittadinanza","currentPlace", "currentDate"],
+      "isActive" : true
+    },
+    {
+      "id" : 17,
+      "label" : "Iscrizione in albi o elenchi",
+      "url" : "https://raw.githubusercontent.com/andoma93/Autocertifico-Templates/v1/templates-android/iscrizione_albo.html",
+      "filename" : "IscrizioneAlboElenco",
+      "hasOtherPeople" : false,
+      "properties": ["name", "surname", "sexValue", "placeOfBirth", "provinceOfBirth",
+        "dateOfBirth", "cityLive", "provinceLive", "addressLive","civicNumber"],
+      "otherProperties" : ["alboElenco","currentPlace", "currentDate"],
       "isActive" : true
     }
   ]
