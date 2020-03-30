@@ -495,7 +495,7 @@
       "filename" : "NascitaFiglio",
       "hasOtherPeople" : true,
       "properties": ["name", "surname", "sexValue", "placeOfBirth", "provinceOfBirth",
-        "dateOfBirth", "fiscalCode"],
+        "dateOfBirth", "fiscalCode", "cityLive", "provinceLive", "addressLive","civicNumber"],
       "otherProperties" : [ "causale","currentPlace", "currentDate"],
       "hint" : "Seleziona identità figlio",
       "isActive" : true
