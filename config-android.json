@@ -542,7 +542,7 @@
       "isActive" : true
     },
     {
-      "id" : 17,
+      "id" : 18,
       "label" : "Iscrizione in albi o elenchi",
       "url" : "https://raw.githubusercontent.com/andoma93/Autocertifico-Templates/v1/templates-android/iscrizione_albo.html",
       "filename" : "IscrizioneAlboElenco",
