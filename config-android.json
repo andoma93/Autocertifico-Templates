@@ -345,7 +345,7 @@
   "certificatesList" : [
     {
       "id" : 14,
-      "label" : "Spostamenti - del 26 Marzo 2020 ( ancora valido ad oggi 3/5/2020 )",
+      "label" : "Spostamenti - valido per FASE 2 (fonte ufficiale governo.it)",
       "url" : "https://raw.githubusercontent.com/andoma93/Autocertifico-Templates/v1/templates-android/spostamento.html",
       "filename" : "MotivazioneSpostamentiDPCM",
       "hasOtherPeople" : false,
