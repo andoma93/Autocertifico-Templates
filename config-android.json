@@ -237,13 +237,13 @@
     },
     {
       "id" : "fromPlace",
-      "label" : "Luogo inizio spostamento:",
+      "label" : "Indirizzo inizio spostamento:",
       "type" : "string",
       "tag" : "##fromPlace##"
     },
     {
       "id" : "toPlace",
-      "label" : "Qual è la tua destinazione:",
+      "label" : "Indirizzo di destinazione:",
       "type" : "string",
       "tag" : "##toPlace##"
     },
@@ -302,18 +302,6 @@
       "tag" : "##documentReleasedDate##"
     },
     {
-      "id" : "fromRegion",
-      "label" : "Regione di partenza:",
-      "type" : "string",
-      "tag" : "##fromRegion##"
-    },
-    {
-      "id" : "toRegion",
-      "label" : "Regione di destinazione:",
-      "type" : "string",
-      "tag" : "##toRegion##"
-    },
-    {
       "id" : "covidReason",
       "tag" : "##covidReason##",
       "label" : "Lo spostamento è determinato da:",
@@ -344,8 +332,8 @@
   ],
   "certificatesList" : [
     {
-      "id" : 14,
-      "label" : "Spostamenti - valido per FASE 2 (fonte ufficiale governo.it)",
+      "id" : 15,
+      "label" : "Spostamenti - valido dal 5 Novembre 2020(fonte ufficiale governo.it)",
       "url" : "https://raw.githubusercontent.com/andoma93/Autocertifico-Templates/v1/templates-android/spostamento.html",
       "filename" : "MotivazioneSpostamentiDPCM",
       "hasOtherPeople" : false,
