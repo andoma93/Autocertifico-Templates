@@ -319,8 +319,7 @@
       "label" : "Lo spostamento è determinato da:",
       "type" : "picker",
       "valuesPicker" : [
-        "comprovate esigenze lavorative","motivi di salute",
-        "altri motivi ammessi dalle vigenti normative ovvero dai predetti decreti, ordinanze e altri provvedimenti che definiscono le misure di prevenzione della diffusione del contagio"
+        "comprovate esigenze lavorative","motivi di salute","altri motivi ammessi dalle vigenti normative ovvero dai predetti decreti, ordinanze e altri provvedimenti che definiscono le misure di prevenzione della diffusione del contagio"
       ]
     },
     {
