@@ -319,7 +319,8 @@
       "label" : "Lo spostamento è determinato da:",
       "type" : "picker",
       "valuesPicker" : [
-        "comprovate esigenze lavorative", "assoluta urgenza","situazione di necessità","motivi di salute"
+        "comprovate esigenze lavorative","motivi di salute",
+        "altri motivi ammessi dalle vigenti normative ovvero dai predetti decreti, ordinanze e altri provvedimenti che definiscono le misure di prevenzione della diffusione del contagio"
       ]
     },
     {
@@ -353,7 +354,7 @@
         "dateOfBirth", "cityLive", "provinceLive", "addressLive","civicNumber"],
       "otherProperties" : [ "cityDomicilio","provinceDomicilio","addressDomicilio","civicNumberDomicilio","identifiedBy", "documentNumber", 
         "documentReleasedBy","documentReleasedDate","numberPhone","fromRegion", "toRegion", "fromPlace", "toPlace","declaration","covidReason"],
-      "isActive" : false
+      "isActive" : true
     },
     {
       "id" : 8,
