@@ -362,7 +362,7 @@
       "hasOtherPeople" : false,
       "properties" : ["name", "surname", "sexValue", "placeOfBirth", "provinceOfBirth",
         "dateOfBirth", "cityLive", "provinceLive", "addressLive","civicNumber"],
-      "otherProperties" : [ "identifiedBy", "documentNumber","numberPhone", "nomeFiglio"],
+      "otherProperties" : [ "identifiedBy", "documentNumber","numberPhone", "nomeFiglio", "gruppoAccesso"],
       "isActive" : true
     },
     {
