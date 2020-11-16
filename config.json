@@ -324,6 +324,18 @@
       "tag" : "##covidReason##",
       "label" : "Lo spostamento è determinato da:",
       "type" : "string"
+    },
+    {
+      "id" : "nomeFiglio",
+      "label" : "Nome del figlio/a?",
+      "type" : "string",
+      "tag" : "##nomeFiglio##"
+    },
+    {
+      "id" : "gruppoAccesso",
+      "label" : "A chi presenti il modulo?",
+      "type" : "string",
+      "tag" : "##gruppoAccesso##"
     }
   ],
   "certificatesList" : [
@@ -338,6 +350,17 @@
       "otherProperties" : [ "cityDomicilio","provinceDomicilio","addressDomicilio","civicNumberDomicilio","identifiedBy", "documentNumber", 
         "documentReleasedBy","documentReleasedDate","numberPhone","fromRegion", "toRegion", "fromPlace", "toPlace","declaration", "covidReason"],
       "isActive" : false
+    },
+    {
+      "id" : 15,
+      "label" : "Autocertificazione Covid per Accesso attività dei figli",
+      "url" : "https://raw.githubusercontent.com/andoma93/Autocertifico-Templates/v1/templates/accesso_attivita.html",
+      "filename" : "AutocertificazioneCovidAccessoAttivitaDeiFigli",
+      "hasOtherPeople" : false,
+      "properties" : ["name", "surname", "sexValue", "placeOfBirth", "provinceOfBirth",
+        "dateOfBirth", "cityLive", "provinceLive", "addressLive","civicNumber"],
+      "otherProperties" : [ "identifiedBy", "documentNumber","numberPhone", "nomeFiglio", "gruppoAccesso", "currentPlace", "currentDate"],
+      "isActive" : true
     },
     {
       "id" : 8,
