@@ -330,7 +330,7 @@
     },
     {
       "id" : "nomeFiglio",
-      "label" : "Nome figlio/a",
+      "label" : "Nome del figlio/a?",
       "type" : "string",
       "tag" : "##nomeFiglio##"
     },
@@ -358,7 +358,7 @@
       "id" : 19,
       "label" : "Autocertificazione Covid per Accesso attività dei figli",
       "url" : "https://raw.githubusercontent.com/andoma93/Autocertifico-Templates/v1/templates-android/accesso_attivita.html",
-      "filename" : "MotivazioneSpostamentiDPCM",
+      "filename" : "AutocertificazioneCovidAccessoAttivitaDeiFigli",
       "hasOtherPeople" : false,
       "properties" : ["name", "surname", "sexValue", "placeOfBirth", "provinceOfBirth",
         "dateOfBirth", "cityLive", "provinceLive", "addressLive","civicNumber"],
