@@ -327,8 +327,19 @@
       "label" : "Indicare Albo o Elenco",
       "type" : "string",
       "tag" : "##alboElenco##"
+    },
+    {
+      "id" : "nomeFiglio",
+      "label" : "Nome figlio/a",
+      "type" : "string",
+      "tag" : "##nomeFiglio##"
+    },
+    {
+      "id" : "gruppoAccesso",
+      "label" : "A chi presenti il modulo?",
+      "type" : "string",
+      "tag" : "##gruppoAccesso##"
     }
-    
   ],
   "certificatesList" : [
     {
@@ -341,6 +352,17 @@
         "dateOfBirth", "cityLive", "provinceLive", "addressLive","civicNumber"],
       "otherProperties" : [ "cityDomicilio","provinceDomicilio","addressDomicilio","civicNumberDomicilio","identifiedBy", "documentNumber", 
         "documentReleasedBy","documentReleasedDate","numberPhone","fromRegion", "toRegion", "fromPlace", "toPlace","declaration","covidReason"],
+      "isActive" : true
+    },
+    {
+      "id" : 19,
+      "label" : "Autocertificazione Covid per Accesso attività dei figli",
+      "url" : "https://raw.githubusercontent.com/andoma93/Autocertifico-Templates/v1/templates-android/accesso_attivita.html",
+      "filename" : "MotivazioneSpostamentiDPCM",
+      "hasOtherPeople" : false,
+      "properties" : ["name", "surname", "sexValue", "placeOfBirth", "provinceOfBirth",
+        "dateOfBirth", "cityLive", "provinceLive", "addressLive","civicNumber"],
+      "otherProperties" : [ "identifiedBy", "documentNumber","numberPhone", "nomeFiglio"],
       "isActive" : true
     },
     {
