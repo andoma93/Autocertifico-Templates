@@ -344,7 +344,7 @@
   "certificatesList" : [
     {
       "id" : 15,
-      "label" : "Spostamenti - valido dal 5/11/2020(fonte governo.it)",
+      "label" : "Spostamenti - valido dal 28/03/2021(fonte governo.it)",
       "url" : "https://raw.githubusercontent.com/andoma93/Autocertifico-Templates/v1/templates-android/spostamento.html",
       "filename" : "MotivazioneSpostamentiDPCM",
       "hasOtherPeople" : false,
